@@ -16,7 +16,7 @@ public class BookingService {
     var bookingReference = client.getBookingReference();
 
     // Step 2: Retrieve train data for the given train ID
-    var seats = client.getTrainData(trainId);
+    var seats = client.getTrainSeats(trainId);
 
     // Step 3: find available seats (hard-code coach 'A' for now)
     var availableSeats = seats.stream().filter(seat -> seat.coach().equals("A") && seat.bookingReference() == null);

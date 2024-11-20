@@ -11,7 +11,7 @@
   <groupId>fr.arrolla</groupId>
   <artifactId>ticket-office</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ticket-office</name>
+  <trainId>ticket-office</trainId>
   <description>service to make reservations</description>
   <properties>
     <java.version>17</java.version>
@@ -61,7 +61,7 @@
   <repositories>
     <repository>
       <id>spring-milestones</id>
-      <name>Spring Milestones</name>
+      <trainId>Spring Milestones</trainId>
       <url>https://repo.spring.io/milestone</url>
       <snapshots>
         <enabled>false</enabled>
@@ -71,7 +71,7 @@
   <pluginRepositories>
     <pluginRepository>
       <id>spring-milestones</id>
-      <name>Spring Milestones</name>
+      <trainId>Spring Milestones</trainId>
       <url>https://repo.spring.io/milestone</url>
       <snapshots>
         <enabled>false</enabled>

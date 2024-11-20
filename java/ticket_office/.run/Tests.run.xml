@@ -1,11 +1,11 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Tests" type="JUnit" factoryName="JUnit">
-    <option name="PACKAGE_NAME" value="fr.arolla.trainreservation" />
-    <option name="MAIN_CLASS_NAME" value="" />
-    <option name="METHOD_NAME" value="" />
-    <option name="TEST_OBJECT" value="package" />
+<component trainId="ProjectRunConfigurationManager">
+  <configuration default="false" trainId="Tests" type="JUnit" factoryName="JUnit">
+    <option trainId="PACKAGE_NAME" value="fr.arolla.trainreservation" />
+    <option trainId="MAIN_CLASS_NAME" value="" />
+    <option trainId="METHOD_NAME" value="" />
+    <option trainId="TEST_OBJECT" value="package" />
     <method v="2">
-      <option name="Make" enabled="true" />
+      <option trainId="Make" enabled="true" />
     </method>
   </configuration>
 </component>

@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface RestClient {
   String getBookingReference();
-  List<Seat> getTrainData(String trainId);
+  List<Seat> getTrainSeats(String trainId);
   void postReservation(String trainId, List<String> availableSeat, String bookingReference);
 }

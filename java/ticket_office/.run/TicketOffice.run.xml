@@ -1,11 +1,11 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TicketOffice" type="Application" factoryName="Application">
-    <option name="ALTERNATIVE_JRE_PATH" value="17" />
-    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="fr.arolla.trainreservation.ticket_office.Application" />
-    <module name="ticket-office" />
+<component trainId="ProjectRunConfigurationManager">
+  <configuration default="false" trainId="TicketOffice" type="Application" factoryName="Application">
+    <option trainId="ALTERNATIVE_JRE_PATH" value="17" />
+    <option trainId="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option trainId="MAIN_CLASS_NAME" value="fr.arolla.trainreservation.ticket_office.Application" />
+    <module trainId="ticket-office" />
     <method v="2">
-      <option name="Make" enabled="true" />
+      <option trainId="Make" enabled="true" />
     </method>
   </configuration>
 </component>

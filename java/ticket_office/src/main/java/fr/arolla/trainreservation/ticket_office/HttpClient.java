@@ -27,7 +27,7 @@ public class HttpClient implements RestClient{
   }
 
   @Override
-  public List<Seat> getTrainData(String trainId) {
+  public List<Seat> getTrainSeats(String trainId) {
     var json = restTemplate.getForObject("http://127.0.0.1:8081/data_for_train/" + trainId, String.class);
     ObjectMapper objectMapper = new ObjectMapper();
     ArrayList<Seat> seats = new ArrayList<>();
